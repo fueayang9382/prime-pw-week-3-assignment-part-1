@@ -127,11 +127,14 @@ console.log(favoriteFoods);
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
-//const myNewString = myArray.join(',');
-//myNewString;
 
-let favoriteFoodsString = favoriteFoods.join(',');
-console.log(favoriteFoods);
+//convert ['steak', 'pho', 'pad thai', 'eggroll'] --> ' steak pho pad thai eggroll' 
+//the word "and" is a variable/element that still recognize the indexes.
+//the "and" will insert it self at eacch end of the arrays items.  
+
+let favoriteFoodStrings = favoriteFoods[0] + ' and ' + favoriteFoods[1] + ' and ' + favoriteFoods[2] + ' and ' + favoriteFoods[3]
+
+console.log(favoriteFoodStrings);
 
 
 // 4.h (STRETCH) TODO: Make a new array that combines 
