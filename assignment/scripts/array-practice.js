@@ -139,3 +139,8 @@ console.log(favoriteFoods);
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+console.log('formula to combine two arrays is " console.log(arrayone.concat(arraytwo);');
+let arrayOne = favoriteFoods;
+let arrayTwo = animalArray;
+
+console.log(arrayOne.concat(arrayTwo));
